@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42256D432695B40700E0E12C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D422695B40700E0E12C /* AppDelegate.swift */; };
+		42256D452695B40700E0E12C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D442695B40700E0E12C /* ViewController.swift */; };
+		42256D472695B40900E0E12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42256D462695B40900E0E12C /* Assets.xcassets */; };
+		42256D4A2695B40900E0E12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42256D482695B40900E0E12C /* Main.storyboard */; };
+		42256D562695B40900E0E12C /* GamingMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D552695B40900E0E12C /* GamingMacTests.swift */; };
+		42256D612695B40900E0E12C /* GamingMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D602695B40900E0E12C /* GamingMacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42256D522695B40900E0E12C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42256D372695B40700E0E12C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42256D3E2695B40700E0E12C;
+			remoteInfo = GamingMac;
+		};
+		42256D5D2695B40900E0E12C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42256D372695B40700E0E12C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42256D3E2695B40700E0E12C;
+			remoteInfo = GamingMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42256D3F2695B40700E0E12C /* GamingMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamingMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42256D422695B40700E0E12C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42256D442695B40700E0E12C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42256D462695B40900E0E12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42256D492695B40900E0E12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42256D4B2695B40900E0E12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42256D4C2695B40900E0E12C /* GamingMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GamingMac.entitlements; sourceTree = "<group>"; };
+		42256D512695B40900E0E12C /* GamingMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamingMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42256D552695B40900E0E12C /* GamingMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingMacTests.swift; sourceTree = "<group>"; };
+		42256D572695B40900E0E12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42256D5C2695B40900E0E12C /* GamingMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamingMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42256D602695B40900E0E12C /* GamingMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingMacUITests.swift; sourceTree = "<group>"; };
+		42256D622695B40900E0E12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42256D3C2695B40700E0E12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42256D4E2695B40900E0E12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42256D592695B40900E0E12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42256D362695B40700E0E12C = {
+			isa = PBXGroup;
+			children = (
+				42256D412695B40700E0E12C /* GamingMac */,
+				42256D542695B40900E0E12C /* GamingMacTests */,
+				42256D5F2695B40900E0E12C /* GamingMacUITests */,
+				42256D402695B40700E0E12C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42256D402695B40700E0E12C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42256D3F2695B40700E0E12C /* GamingMac.app */,
+				42256D512695B40900E0E12C /* GamingMacTests.xctest */,
+				42256D5C2695B40900E0E12C /* GamingMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42256D412695B40700E0E12C /* GamingMac */ = {
+			isa = PBXGroup;
+			children = (
+				42256D422695B40700E0E12C /* AppDelegate.swift */,
+				42256D442695B40700E0E12C /* ViewController.swift */,
+				42256D462695B40900E0E12C /* Assets.xcassets */,
+				42256D482695B40900E0E12C /* Main.storyboard */,
+				42256D4B2695B40900E0E12C /* Info.plist */,
+				42256D4C2695B40900E0E12C /* GamingMac.entitlements */,
+			);
+			path = GamingMac;
+			sourceTree = "<group>";
+		};
+		42256D542695B40900E0E12C /* GamingMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				42256D552695B40900E0E12C /* GamingMacTests.swift */,
+				42256D572695B40900E0E12C /* Info.plist */,
+			);
+			path = GamingMacTests;
+			sourceTree = "<group>";
+		};
+		42256D5F2695B40900E0E12C /* GamingMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42256D602695B40900E0E12C /* GamingMacUITests.swift */,
+				42256D622695B40900E0E12C /* Info.plist */,
+			);
+			path = GamingMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42256D3E2695B40700E0E12C /* GamingMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42256D652695B40900E0E12C /* Build configuration list for PBXNativeTarget "GamingMac" */;
+			buildPhases = (
+				42256D3B2695B40700E0E12C /* Sources */,
+				42256D3C2695B40700E0E12C /* Frameworks */,
+				42256D3D2695B40700E0E12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GamingMac;
+			productName = GamingMac;
+			productReference = 42256D3F2695B40700E0E12C /* GamingMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42256D502695B40900E0E12C /* GamingMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42256D682695B40900E0E12C /* Build configuration list for PBXNativeTarget "GamingMacTests" */;
+			buildPhases = (
+				42256D4D2695B40900E0E12C /* Sources */,
+				42256D4E2695B40900E0E12C /* Frameworks */,
+				42256D4F2695B40900E0E12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42256D532695B40900E0E12C /* PBXTargetDependency */,
+			);
+			name = GamingMacTests;
+			productName = GamingMacTests;
+			productReference = 42256D512695B40900E0E12C /* GamingMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42256D5B2695B40900E0E12C /* GamingMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42256D6B2695B40900E0E12C /* Build configuration list for PBXNativeTarget "GamingMacUITests" */;
+			buildPhases = (
+				42256D582695B40900E0E12C /* Sources */,
+				42256D592695B40900E0E12C /* Frameworks */,
+				42256D5A2695B40900E0E12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42256D5E2695B40900E0E12C /* PBXTargetDependency */,
+			);
+			name = GamingMacUITests;
+			productName = GamingMacUITests;
+			productReference = 42256D5C2695B40900E0E12C /* GamingMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42256D372695B40700E0E12C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					42256D3E2695B40700E0E12C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					42256D502695B40900E0E12C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 42256D3E2695B40700E0E12C;
+					};
+					42256D5B2695B40900E0E12C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 42256D3E2695B40700E0E12C;
+					};
+				};
+			};
+			buildConfigurationList = 42256D3A2695B40700E0E12C /* Build configuration list for PBXProject "GamingMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42256D362695B40700E0E12C;
+			productRefGroup = 42256D402695B40700E0E12C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42256D3E2695B40700E0E12C /* GamingMac */,
+				42256D502695B40900E0E12C /* GamingMacTests */,
+				42256D5B2695B40900E0E12C /* GamingMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42256D3D2695B40700E0E12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42256D472695B40900E0E12C /* Assets.xcassets in Resources */,
+				42256D4A2695B40900E0E12C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42256D4F2695B40900E0E12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42256D5A2695B40900E0E12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42256D3B2695B40700E0E12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42256D452695B40700E0E12C /* ViewController.swift in Sources */,
+				42256D432695B40700E0E12C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42256D4D2695B40900E0E12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42256D562695B40900E0E12C /* GamingMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42256D582695B40900E0E12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42256D612695B40900E0E12C /* GamingMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42256D532695B40900E0E12C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42256D3E2695B40700E0E12C /* GamingMac */;
+			targetProxy = 42256D522695B40900E0E12C /* PBXContainerItemProxy */;
+		};
+		42256D5E2695B40900E0E12C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42256D3E2695B40700E0E12C /* GamingMac */;
+			targetProxy = 42256D5D2695B40900E0E12C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42256D482695B40900E0E12C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42256D492695B40900E0E12C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42256D632695B40900E0E12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42256D642695B40900E0E12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		42256D662695B40900E0E12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GamingMac/GamingMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GamingMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.GamingMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		42256D672695B40900E0E12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GamingMac/GamingMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GamingMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.GamingMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		42256D692695B40900E0E12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				INFOPLIST_FILE = GamingMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.GamingMacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamingMac.app/Contents/MacOS/GamingMac";
+			};
+			name = Debug;
+		};
+		42256D6A2695B40900E0E12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				INFOPLIST_FILE = GamingMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.GamingMacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamingMac.app/Contents/MacOS/GamingMac";
+			};
+			name = Release;
+		};
+		42256D6C2695B40900E0E12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				INFOPLIST_FILE = GamingMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.GamingMacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GamingMac;
+			};
+			name = Debug;
+		};
+		42256D6D2695B40900E0E12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WLCQDVKTS9;
+				INFOPLIST_FILE = GamingMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p-x9.GamingMacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GamingMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42256D3A2695B40700E0E12C /* Build configuration list for PBXProject "GamingMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42256D632695B40900E0E12C /* Debug */,
+				42256D642695B40900E0E12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42256D652695B40900E0E12C /* Build configuration list for PBXNativeTarget "GamingMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42256D662695B40900E0E12C /* Debug */,
+				42256D672695B40900E0E12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42256D682695B40900E0E12C /* Build configuration list for PBXNativeTarget "GamingMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42256D692695B40900E0E12C /* Debug */,
+				42256D6A2695B40900E0E12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42256D6B2695B40900E0E12C /* Build configuration list for PBXNativeTarget "GamingMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42256D6C2695B40900E0E12C /* Debug */,
+				42256D6D2695B40900E0E12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42256D372695B40700E0E12C /* Project object */;
+}
