@@ -1,0 +1,6 @@
+xcuserdata/
+
+Libraries/
+
+Pods/*
+.DS_Store
