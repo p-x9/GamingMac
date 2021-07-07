@@ -10,9 +10,11 @@
 		42256D432695B40700E0E12C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D422695B40700E0E12C /* AppDelegate.swift */; };
 		42256D452695B40700E0E12C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D442695B40700E0E12C /* ViewController.swift */; };
 		42256D472695B40900E0E12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42256D462695B40900E0E12C /* Assets.xcassets */; };
-		42256D4A2695B40900E0E12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42256D482695B40900E0E12C /* Main.storyboard */; };
 		42256D562695B40900E0E12C /* GamingMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D552695B40900E0E12C /* GamingMacTests.swift */; };
 		42256D612695B40900E0E12C /* GamingMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D602695B40900E0E12C /* GamingMacUITests.swift */; };
+		42256D6F2695B50700E0E12C /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D6E2695B50700E0E12C /* NSColor.swift */; };
+		42256D712695B83200E0E12C /* AnimationWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D702695B83200E0E12C /* AnimationWindow.swift */; };
+		42CAB9962695C44600AB1024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CAB9952695C44600AB1024 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		42256D422695B40700E0E12C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42256D442695B40700E0E12C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42256D462695B40900E0E12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42256D492695B40900E0E12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42256D4B2695B40900E0E12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42256D4C2695B40900E0E12C /* GamingMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GamingMac.entitlements; sourceTree = "<group>"; };
 		42256D512695B40900E0E12C /* GamingMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamingMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +47,9 @@
 		42256D5C2695B40900E0E12C /* GamingMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamingMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42256D602695B40900E0E12C /* GamingMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingMacUITests.swift; sourceTree = "<group>"; };
 		42256D622695B40900E0E12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42256D6E2695B50700E0E12C /* NSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
+		42256D702695B83200E0E12C /* AnimationWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWindow.swift; sourceTree = "<group>"; };
+		42CAB9952695C44600AB1024 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			children = (
 				42256D422695B40700E0E12C /* AppDelegate.swift */,
 				42256D442695B40700E0E12C /* ViewController.swift */,
+				42CAB9982695C64900AB1024 /* View */,
+				42CAB9972695C63E00AB1024 /* Extensions */,
+				42CAB9952695C44600AB1024 /* Main.storyboard */,
 				42256D462695B40900E0E12C /* Assets.xcassets */,
-				42256D482695B40900E0E12C /* Main.storyboard */,
 				42256D4B2695B40900E0E12C /* Info.plist */,
 				42256D4C2695B40900E0E12C /* GamingMac.entitlements */,
 			);
@@ -122,6 +128,22 @@
 				42256D622695B40900E0E12C /* Info.plist */,
 			);
 			path = GamingMacUITests;
+			sourceTree = "<group>";
+		};
+		42CAB9972695C63E00AB1024 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42256D6E2695B50700E0E12C /* NSColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42CAB9982695C64900AB1024 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42256D702695B83200E0E12C /* AnimationWindow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42256D472695B40900E0E12C /* Assets.xcassets in Resources */,
-				42256D4A2695B40900E0E12C /* Main.storyboard in Resources */,
+				42CAB9962695C44600AB1024 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42256D712695B83200E0E12C /* AnimationWindow.swift in Sources */,
 				42256D452695B40700E0E12C /* ViewController.swift in Sources */,
+				42256D6F2695B50700E0E12C /* NSColor.swift in Sources */,
 				42256D432695B40700E0E12C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,17 +312,6 @@
 			targetProxy = 42256D5D2695B40900E0E12C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		42256D482695B40900E0E12C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42256D492695B40900E0E12C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		42256D632695B40900E0E12C /* Debug */ = {
