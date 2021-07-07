@@ -15,6 +15,7 @@
 		42256D6F2695B50700E0E12C /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D6E2695B50700E0E12C /* NSColor.swift */; };
 		42256D712695B83200E0E12C /* AnimationWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256D702695B83200E0E12C /* AnimationWindow.swift */; };
 		42CAB9962695C44600AB1024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CAB9952695C44600AB1024 /* Main.storyboard */; };
+		42CAB99C2695C98200AB1024 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 42CAB99B2695C98200AB1024 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		42256D6E2695B50700E0E12C /* NSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
 		42256D702695B83200E0E12C /* AnimationWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWindow.swift; sourceTree = "<group>"; };
 		42CAB9952695C44600AB1024 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		42CAB9992695C87200AB1024 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		42CAB99B2695C98200AB1024 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 		42256D362695B40700E0E12C = {
 			isa = PBXGroup;
 			children = (
+				42CAB9992695C87200AB1024 /* README.md */,
+				42CAB99A2695C96A00AB1024 /* src */,
 				42256D412695B40700E0E12C /* GamingMac */,
 				42256D542695B40900E0E12C /* GamingMacTests */,
 				42256D5F2695B40900E0E12C /* GamingMacUITests */,
@@ -144,6 +149,14 @@
 				42256D702695B83200E0E12C /* AnimationWindow.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		42CAB99A2695C96A00AB1024 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				42CAB99B2695C98200AB1024 /* demo.gif */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CAB99C2695C98200AB1024 /* demo.gif in Resources */,
 				42256D472695B40900E0E12C /* Assets.xcassets in Resources */,
 				42CAB9962695C44600AB1024 /* Main.storyboard in Resources */,
 			);
